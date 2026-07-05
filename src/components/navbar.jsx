@@ -9,7 +9,7 @@ export function Navbar() {
           DataRey
         </a>
         <nav className="flex items-center gap-4">
-          <a href="/docs" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+          <a href="https://localhost:5173/quickstart" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
             Docs
           </a>
           <a href="/pricing" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
