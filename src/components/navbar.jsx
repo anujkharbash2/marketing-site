@@ -15,6 +15,12 @@ export function Navbar() {
           <a href="/pricing" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
             Pricing
           </a>
+          <a href="/about" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            About us
+          </a>
+          <a href="/contact" className="text-sm text-muted-foreground hover:text-foreground transition-colors">
+            Contact us
+          </a>
           <a
             href="http://localhost:5173/login"
             className={cn(buttonVariants({ variant: "outline", size: "sm" }))}>

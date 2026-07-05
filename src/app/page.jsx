@@ -22,9 +22,9 @@ export default function Home() {
           Turn any web page into structured data
         </h1>
         <p className="text-muted-foreground max-w-md mx-auto mb-8 text-base leading-relaxed">
-          The self-serve extract API built and priced for India. No scraper
-          maintenance, no USD pricing.
-        </p>
+  Turn any product or article page into clean, structured JSON — no
+  scrapers to write or maintain.
+</p>
         <div className="flex gap-3 justify-center">
           <a href="/request-access" className={cn(buttonVariants({ variant: "default", size: "lg" }))}>
   Request access

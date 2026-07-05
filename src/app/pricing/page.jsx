@@ -21,7 +21,7 @@ const tiers = [
     credits: "Volume-based, uncapped",
     features: ["Everything in Free", "Priority support", "Onboarding help", "Feedback shapes our roadmap"],
     cta: "Talk to us",
-    href: "mailto:hello@datarey.example",
+    href: "/contact",
     highlighted: true,
   },
 ];
@@ -32,9 +32,9 @@ export default function Pricing() {
       <div className="text-center mb-12">
         <h1 className="text-3xl font-medium mb-3 tracking-tight">Simple, pilot-phase pricing</h1>
         <p className="text-muted-foreground max-w-md mx-auto">
-          We're in early access. Start free, or talk to us about a custom plan
-          if you need more.
-        </p>
+  We're in early access. Start free, or talk to us if you need a custom
+  plan.
+</p>
       </div>
 
       <div className="grid sm:grid-cols-2 gap-4">
