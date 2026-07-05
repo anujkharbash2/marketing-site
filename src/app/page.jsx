@@ -26,13 +26,10 @@ export default function Home() {
           maintenance, no USD pricing.
         </p>
         <div className="flex gap-3 justify-center">
-          <a
-            href="http://localhost:5173/login"
-            className={cn(buttonVariants({ variant: "default", size: "lg" }))}
-          >
-            Start for free
-            <ArrowRight className="ml-1.5" />
-          </a>
+          <a href="/request-access" className={cn(buttonVariants({ variant: "default", size: "lg" }))}>
+  Request access
+  <ArrowRight className="ml-1.5" />
+</a>
           <a href="/docs" className={cn(buttonVariants({ variant: "outline", size: "lg" }))}>
             View docs
           </a>

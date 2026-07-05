@@ -10,8 +10,8 @@ const tiers = [
     period: "/month",
     credits: "1,000 credits/month",
     features: ["Product & article extraction", "Community support", "Standard rate limits"],
-    cta: "Start for free",
-    href: "http://localhost:5173/login",
+    cta: "Request access",
+    href: "/request-access",
     highlighted: false,
   },
   {
